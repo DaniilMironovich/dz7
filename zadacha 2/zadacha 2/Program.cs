@@ -28,9 +28,9 @@ for (int i = 0; i < array.GetLength(0); i++)
 }
 
 Console.SetCursorPosition(0, 20);
-Console.WriteLine("Введите число от 1 до 3 ");
+Console.WriteLine("Введите число от 1 до 3 которое будет обозначать строку искомого элемента ");
 rowIndex = Convert.ToInt32(Console.ReadLine()) + (-1);
-Console.WriteLine("Введите число от 1 до 4 ");
+Console.WriteLine("Введите число от 1 до 4 которое будет обозначать столбец искомого элемента ");
 columnIndex = Convert.ToInt32(Console.ReadLine()) + (-1);
 if (rowIndex >= 0 && rowIndex <= 2 || columnIndex >= 0 && columnIndex <= 3)
 {
